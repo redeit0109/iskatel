@@ -54,3 +54,5 @@
 8. **Сбор информации о файлах и директориях**:
     - **Директории**: Сбор информации о содержимом директорий, таких как Desktop, Downloads, TEMP, Recent, Favorites, Documents, Pictures, Contacts, Music, Videos.
     - **Копирование файлов**: Копирование содержимого указанных директорий в созданную директорию для сбора информации.
+# Лицензия
+![license](https://github.com/user-attachments/assets/97b96cfd-0e3a-425f-a5ba-98cb13150b8e)
