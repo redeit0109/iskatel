@@ -1,3 +1,4 @@
+[RU](https://github.com/redeit0109/iskatel/blob/main/RuREADME.md)/**EN**
 ![iskatel](https://github.com/user-attachments/assets/da613902-ae1c-4e02-93a6-24da7f1b3f1b)
 # DISCLAIMER
 **The author does not encourage the use of this tool for malicious purposes!**
