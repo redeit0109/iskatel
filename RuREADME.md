@@ -1,3 +1,4 @@
+**RU**/[EN](https://github.com/redeit0109/iskatel?tab=readme-ov-file#readme)
 ![iskatel](https://github.com/user-attachments/assets/da613902-ae1c-4e02-93a6-24da7f1b3f1b)
 # ДИСКЛЕЙМЕР
 **Автор не поощряет использование этого инструмента в вредоносных целях!**
