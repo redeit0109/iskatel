@@ -54,3 +54,5 @@
 8. **Files and Directories Information Collection**:
     - **Directories**: Collects information about the contents of directories such as Desktop, Downloads, TEMP, Recent, Favorites, Documents, Pictures, Contacts, Music, Videos.
     - **File Copying**: Copies the contents of the specified directories to the created directory for information collection.
+# License
+![license](https://github.com/user-attachments/assets/97b96cfd-0e3a-425f-a5ba-98cb13150b8e)
