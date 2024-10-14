@@ -55,8 +55,8 @@
 8. **Files and Directories Information Collection**:
     - **Directories**: Collects information about the contents of directories such as Desktop, Downloads, TEMP, Recent, Favorites, Documents, Pictures, Contacts, Music, Videos.
     - **File Copying**: Copies the contents of the specified directories to the created directory for information collection.
-# RU
-**RU**/[EN](https://github.com/redeit0109/iskatel#readme-ov-file)
+### RU
+**RU**/[EN](https://github.com/redeit0109/iskatel#en)
 ![iskatel](https://github.com/user-attachments/assets/da613902-ae1c-4e02-93a6-24da7f1b3f1b)
 # ДИСКЛЕЙМЕР
 **Автор не поощряет использование этого инструмента в вредоносных целях!**
