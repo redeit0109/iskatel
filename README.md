@@ -3,8 +3,9 @@
 ![iskatel](https://github.com/user-attachments/assets/da613902-ae1c-4e02-93a6-24da7f1b3f1b)
 # DISCLAIMER
 **The author does not encourage the use of this tool for malicious purposes!**
+# About iskatel
+It is a **script** written in **Batch** - **Windows** *Command Line* Language and **open source** that searches for a lot of information and files on the victim's PC.
 # What does it do?
-
 1. **System Information Collection**:
    - **Users**: Collects information about current system users.
    - **PC Name**: Retrieves the computer name.
@@ -60,8 +61,9 @@
 ![iskatel](https://github.com/user-attachments/assets/da613902-ae1c-4e02-93a6-24da7f1b3f1b)
 # ДИСКЛЕЙМЕР
 **Автор не поощряет использование этого инструмента в вредоносных целях!**
+# Про iskatel
+Это **скрипт**, написанный на **Batch** - *Язык командной строки* **Windows** и с **открытым исходником**, который ищет множество информации и файлов на ПК жертвы.
 # Что это делает?
-
 1. **Сбор информации о системе**:
    - **Пользователи**: Сбор информации о текущих пользователях системы.
    - **Имя ПК**: Получение имени компьютера.
