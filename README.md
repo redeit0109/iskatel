@@ -1,5 +1,5 @@
 ### EN
-[RU](https://github.com/redeit0109/iskatel#ru)/**EN**
+[RU](https://github.com/redeit0109/iskatel?tab=readme-ov-file#ru)/**EN**
 ![iskatel](https://github.com/user-attachments/assets/da613902-ae1c-4e02-93a6-24da7f1b3f1b)
 # DISCLAIMER
 **The author does not encourage the use of this tool for malicious purposes!**
