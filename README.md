@@ -18,6 +18,7 @@ It is a **script** written in **Batch** - **Windows** *Command Line* Language an
    - **PowerShell Information**: Collects information about the PowerShell version and configuration.
    - **Knowledge Bases**: Collects information about applied system updates (KB).
    - **User Activity**: Collects information about the user's recent actions in the system.
+   - **Whoami**: Information about the current user, including their SID (Security Identifier), group membership, permissions, and other security attributes.
 
 2. **Process Information Collection**:
    - **Running Processes**: Collects information about running processes, including their IDs, names, CPU usage, and memory usage.
@@ -76,6 +77,7 @@ It is a **script** written in **Batch** - **Windows** *Command Line* Language an
    - **Информация о PowerShell**: Сбор информации о версии и конфигурации PowerShell.
    - **Базовые знания**: Сбор информации о примененных обновлениях системы (KB).
    - **Активность пользователя**: Сбор информации о последних действиях пользователя в системе.
+   - **Ктоя(Whoami)**: Информация о текущем пользователе, включая его SID (Security Identifier), членство в группах, права и другие атрибуты безопасности.
 
 2. **Сбор информации о процессах**:
    - **Запущенные процессы**: Сбор информации о запущенных процессах, включая их идентификаторы, имена, использование CPU и памяти.
