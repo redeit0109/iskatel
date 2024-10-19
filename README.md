@@ -1,6 +1,7 @@
 ### EN
 [RU](https://github.com/redeit0109/iskatel?tab=readme-ov-file#ru)/**EN**
 ![iskatel](https://github.com/user-attachments/assets/da613902-ae1c-4e02-93a6-24da7f1b3f1b)
+[Download](https://github.com/redeit0109/iskatel/archive/refs/tags/iskatel.zip)
 # DISCLAIMER
 **The author does not encourage the use of this tool for malicious purposes!**
 # About iskatel
@@ -60,6 +61,7 @@ It is a **script** written in **Batch** - **Windows** *Command Line* Language an
 ### RU
 **RU**/[EN](https://github.com/redeit0109/iskatel?tab=readme-ov-file#en)
 ![iskatel](https://github.com/user-attachments/assets/da613902-ae1c-4e02-93a6-24da7f1b3f1b)
+[Скачать](https://github.com/redeit0109/iskatel/archive/refs/tags/iskatel.zip)
 # ДИСКЛЕЙМЕР
 **Автор не поощряет использование этого инструмента в вредоносных целях!**
 # Про iskatel
