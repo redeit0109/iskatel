@@ -77,10 +77,19 @@ whoami /all >> "unimportant_info.txt"
 call :ColorText 02 "Unimportant information is ready"
 echo.
 echo Unimportant information is ready - %time% > "retrieval_time.txt"
+mkdir Backups
+reg save HKLM\SAM "%cd%\Backups\SAM.bak"
+reg save HKLM\SYSTEM "%cd%\Backups\SYSTEM.bak"
+reg save HKLM\SOFTWARE "%cd%\Backups\SOFTWARE.bak"
+call :ColorText 02 "Backups is ready"
+echo.
+echo Backups is ready - %time% >> "retrieval_time.txt"
 echo Processes: >> "processes.txt"
 powershell -Command "Get-Process | Select-Object -Property Id, ProcessName, CPU, WorkingSet, Path" >> "processes.txt"
 echo Autostart: >> "processes.txt"
 powershell -Command "Get-WmiObject Win32_StartupCommand" >> "processes.txt"
+echo 'Run' Service history: >> "processes.txt"
+powershell -Command Get-ItemProperty -Path "HKCU:Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU" >> "processes.txt"
 call :ColorText 02 "Processes is ready"
 echo.
 echo Processes is ready - %time% >> "retrieval_time.txt"
@@ -102,7 +111,6 @@ echo Installed Programs: > "programs.txt"
 for /f "tokens=2*" %%a in ('reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall" /s /f "DisplayName" ^| find "REG_SZ"') do (
     echo %%b >> programs.txt
 )
-
 for /f "tokens=2*" %%a in ('reg query "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uninstall" /s /f "DisplayName" ^| find "REG_SZ"') do (
     echo %%b >> programs.txt
 )
