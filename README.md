@@ -22,7 +22,7 @@ It is a **script** written in **Batch** - **Windows** *Command Line* Language an
    - **Whoami**: Information about the current user, including their SID (Security Identifier), group membership, permissions, and other security attributes.
 
 2. **Backup saving**:
-   - **SAM/SYSTEM**: These backup files may have Windows user passwords and system vulnerabilities after hash analysis. **!WARNING : ILLEGAL!**
+   - **SAM/SYSTEM**: These backup files may have Windows user passwords and system vulnerabilities after hash analysis.
 
 4. **Process Information Collection**:
    - **Running Processes**: Collects information about running processes, including their IDs, names, CPU usage, and memory usage.
@@ -85,7 +85,7 @@ It is a **script** written in **Batch** - **Windows** *Command Line* Language an
    - **Ктоя(Whoami)**: Информация о текущем пользователе, включая его SID (Security Identifier), членство в группах, права и другие атрибуты безопасности.
 
 2. **Сохранения Бэкапов**:
-   - **SAM/SYSTEM**: Эти бэкап файлы могут иметь пароли пользователей Windows и уязвимости в системе после хэш анализа. **!ПРЕДУПРЕЖДЕНИЕ : НЕЗАКОННО!**
+   - **SAM/SYSTEM**: Эти бэкап файлы могут иметь пароли пользователей Windows и уязвимости в системе после хэш анализа.
 
 4. **Сбор информации о процессах**:
    - **Запущенные процессы**: Сбор информации о запущенных процессах, включая их идентификаторы, имена, использование CPU и памяти.
