@@ -21,30 +21,34 @@ It is a **script** written in **Batch** - **Windows** *Command Line* Language an
    - **User Activity**: Collects information about the user's recent actions in the system.
    - **Whoami**: Information about the current user, including their SID (Security Identifier), group membership, permissions, and other security attributes.
 
-2. **Process Information Collection**:
+2. **Backup saving**:
+   - **SAM/SYSTEM**: These backup files may have Windows user passwords and system vulnerabilities after hash analysis. **!WARNING : ILLEGAL!**
+
+4. **Process Information Collection**:
    - **Running Processes**: Collects information about running processes, including their IDs, names, CPU usage, and memory usage.
    - **Autostart**: Collects information about programs that start at system startup.
+   - **«Run» service history**: Collects history of commands from «Run» service.
 
-3. **System Component Information Collection**:
+5. **System Component Information Collection**:
    - **Processor**: Collects information about the processor, including the number of cores and logical processors.
    - **RAM**: Collects information about the amount of RAM.
    - **Hard Drives**: Collects information about hard drives, including model and size.
    - **Graphics Card**: Collects information about the graphics card.
 
-4. **Installed Programs Information Collection**:
+6. **Installed Programs Information Collection**:
    - **Installed Programs**: Collects information about programs installed in the system, including their names and versions.
 
-5. **USB Devices Information Collection**:
+7. **USB Devices Information Collection**:
    - **USB Devices**: Collects information about connected USB devices, including their names and status.
    - **Screen Settings**: Collects information about screen settings.
    - **Drives**: Collects information about connected drives.
    - **Drivers**: Collects information about drivers.
 
-6. **Antivirus Information Collection**:
+8. **Antivirus Information Collection**:
    - **Antivirus**: Collects information about installed antivirus programs.
    - **Firewall**: Collects information about firewall settings.
 
-7. **Network Connections Information Collection**:
+9. **Network Connections Information Collection**:
    - **Network Connections**: Collects information about active network connections.
    - **IP Address**: Retrieves the local and public IP address.
    - **IP Information**: Retrieves location information based on the IP address.
@@ -55,7 +59,7 @@ It is a **script** written in **Batch** - **Windows** *Command Line* Language an
    - **Network Resources**: Collects information about network resources.
    - **Network Printers**: Collects information about network printers.
 
-8. **Files and Directories Information Collection**:
+10. **Files and Directories Information Collection**:
     - **Directories**: Collects information about the contents of directories such as Desktop, Downloads, TEMP, Recent, Favorites, Documents, Pictures, Contacts, Music, Videos.
     - **File Copying**: Copies the contents of the specified directories to the created directory for information collection.
 ### RU
@@ -80,30 +84,34 @@ It is a **script** written in **Batch** - **Windows** *Command Line* Language an
    - **Активность пользователя**: Сбор информации о последних действиях пользователя в системе.
    - **Ктоя(Whoami)**: Информация о текущем пользователе, включая его SID (Security Identifier), членство в группах, права и другие атрибуты безопасности.
 
-2. **Сбор информации о процессах**:
+2. **Сохранения Бэкапов**:
+   - **SAM/SYSTEM**: Эти бэкап файлы могут иметь пароли пользователей Windows и уязвимости в системе после хэш анализа. **!ПРЕДУПРЕЖДЕНИЕ : НЕЗАКОННО!**
+
+4. **Сбор информации о процессах**:
    - **Запущенные процессы**: Сбор информации о запущенных процессах, включая их идентификаторы, имена, использование CPU и памяти.
    - **Автозагрузка**: Сбор информации о программах, которые запускаются при старте системы.
+   - **История сервиса «Выполнить»**: Собирает историю команд из службы «Выполнить».
 
-3. **Сбор информации о компонентах системы**:
+5. **Сбор информации о компонентах системы**:
    - **Процессор**: Сбор информации о процессоре, включая количество ядер и логических процессоров.
    - **ОЗУ**: Сбор информации о объеме оперативной памяти.
    - **Жесткие диски**: Сбор информации о жестких дисках, включая модель и размер.
    - **Видеокарта**: Сбор информации о видеокарте.
 
-4. **Сбор информации о установленных программах**:
+6. **Сбор информации о установленных программах**:
    - **Установленные программы**: Сбор информации о программах, установленных в системе, включая их имена и версии.
 
-5. **Сбор информации о USB-устройствах**:
+7. **Сбор информации о USB-устройствах**:
    - **USB-устройства**: Сбор информации о подключенных USB-устройствах, включая их имена и статус.
    - **Настройки экрана**: Сбор информации о настройках экрана.
    - **Диски**: Сбор информации о подключенных дисках.
    - **Драйверы**: Сбор информации о драйверах.
 
-6. **Сбор информации о антивирусе**:
+8. **Сбор информации о антивирусе**:
    - **Антивирус**: Сбор информации о установленных антивирусных программах.
    - **Брандмауэр**: Сбор информации о настройках брандмауэра.
 
-7. **Сбор информации о сетевых подключениях**:
+9. **Сбор информации о сетевых подключениях**:
    - **Сетевые подключения**: Сбор информации о активных сетевых подключениях.
    - **IP-адрес**: Получение локального и публичного IP-адреса.
    - **Информация о IP**: Получение информации о местоположении по IP-адресу.
@@ -114,6 +122,6 @@ It is a **script** written in **Batch** - **Windows** *Command Line* Language an
    - **Сетевые ресурсы**: Сбор информации о сетевых ресурсах.
    - **Сетевые принтеры**: Сбор информации о сетевых принтерах.
 
-8. **Сбор информации о файлах и директориях**:
+10. **Сбор информации о файлах и директориях**:
     - **Директории**: Сбор информации о содержимом директорий, таких как Desktop, Downloads, TEMP, Recent, Favorites, Documents, Pictures, Contacts, Music, Videos.
     - **Копирование файлов**: Копирование содержимого указанных директорий в созданную директорию для сбора информации.
