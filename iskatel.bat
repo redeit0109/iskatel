@@ -80,7 +80,6 @@ echo Unimportant information is ready - %time% > "retrieval_time.txt"
 mkdir Backups
 reg save HKLM\SAM "%cd%\Backups\SAM.bak"
 reg save HKLM\SYSTEM "%cd%\Backups\SYSTEM.bak"
-reg save HKLM\SOFTWARE "%cd%\Backups\SOFTWARE.bak"
 call :ColorText 02 "Backups is ready"
 echo.
 echo Backups is ready - %time% >> "retrieval_time.txt"
