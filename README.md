@@ -37,7 +37,7 @@ It is a **script** written in **Batch** - **Windows** *Command Line* Language an
    - **Graphics Card**: Collects information about the graphics card.
 
 6. **Installed Programs Information Collection**:
-   - **Installed Programs**: Collects information about programs installed in the system, including their names and versions.
+   - **Installed Programs**: Collects information about programs installed on the system, only their names and versions.
 
 7. **USB Devices Information Collection**:
    - **USB Devices**: Collects information about connected USB devices, including their names and status.
@@ -100,7 +100,7 @@ It is a **script** written in **Batch** - **Windows** *Command Line* Language an
    - **Видеокарта**: Сбор информации о видеокарте.
 
 6. **Сбор информации о установленных программах**:
-   - **Установленные программы**: Сбор информации о программах, установленных в системе, включая их имена и версии.
+   - **Установленные программы**: Сбор информации о программах, установленных в системе, только их имена и версии.
 
 7. **Сбор информации о USB-устройствах**:
    - **USB-устройства**: Сбор информации о подключенных USB-устройствах, включая их имена и статус.
